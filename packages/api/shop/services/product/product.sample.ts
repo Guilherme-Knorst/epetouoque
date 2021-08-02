@@ -41278,5 +41278,48 @@ export function createProductSamples() {
         },
       ],
     },
+
+    {
+      id: 10035,
+      title: 'Roupinha fOdA',
+      slug: 'ropinha-foda',
+      unit: '1 pc(s)',
+      price: 56,
+      salePrice: 0,
+      discountInPercent: 0,
+      description:
+        'The lemon/lime, Citrus limon Osbeck, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India.',
+      type: 'pet',
+      image:
+        'https://res.cloudinary.com/redq-inc/image/upload/c_fit,q_auto:best,w_300/v1589614568/pickbazar/grocery/GreenLimes_jrodle.jpg',
+      gallery: [
+        {
+          url:
+            'https://res.cloudinary.com/redq-inc/image/upload/v1589614568/pickbazar/grocery/GreenLimes_jrodle.jpg',
+        },
+
+        {
+          url:
+            'https://res.cloudinary.com/redq-inc/image/upload/v1589614568/pickbazar/grocery/GreenLimes_jrodle.jpg',
+        },
+
+        {
+          url:
+            'https://res.cloudinary.com/redq-inc/image/upload/v1589614568/pickbazar/grocery/GreenLimes_jrodle.jpg',
+        },
+
+        {
+          url:
+            'https://res.cloudinary.com/redq-inc/image/upload/v1589614568/pickbazar/grocery/GreenLimes_jrodle.jpg',
+        },
+      ],
+      categories: [
+        {
+          id: 2,
+          title: 'Roupas PET',
+          slug: 'roupas-pet',
+        },
+      ],
+    },
   ]);
 }

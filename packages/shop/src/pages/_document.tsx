@@ -33,6 +33,7 @@ export default class CustomDocument extends Document {
       sheet.seal();
     }
   }
+  
   render() {
     return (
       <Html lang="en">

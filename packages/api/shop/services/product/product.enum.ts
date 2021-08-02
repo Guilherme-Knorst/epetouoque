@@ -11,6 +11,7 @@ export enum ProductType {
   FURNITURE_TWO = 'furniture-two',
   MAKEUP = 'makeup',
   BAKERY = 'bakery',
+  PET = 'pet',
 }
 
 registerEnumType(ProductType, {

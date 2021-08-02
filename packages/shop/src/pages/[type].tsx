@@ -121,6 +121,7 @@ export async function getStaticPaths() {
       { params: { type: 'medicine' } },
       { params: { type: 'furniture' } },
       { params: { type: 'clothing' } },
+      { params: { type: 'pet' } },
     ],
     fallback: false,
   };

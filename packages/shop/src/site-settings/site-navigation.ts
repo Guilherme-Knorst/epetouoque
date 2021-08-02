@@ -1,5 +1,6 @@
 export const HOME_PAGE = '/';
 export const GROCERY_PAGE = '/grocery';
+export const PET_PAGE = '/pet';
 export const GROCERY_PAGE_TWO = '/grocery-two';
 export const BAKERY_PAGE = '/bakery';
 export const MAKEUP_PAGE = '/makeup';
@@ -84,6 +85,13 @@ export const AUTHORIZED_MENU_ITEMS = [
 ];
 // category menu items for header navigation
 export const CATEGORY_MENU_ITEMS = [
+  {
+    id: 'nav.pet',
+    href: PET_PAGE,
+    defaultMessage: 'Roupinhas pet',
+    icon: 'FruitsVegetable',
+    dynamic: true,
+  },
   {
     id: 'nav.grocery',
     href: GROCERY_PAGE,

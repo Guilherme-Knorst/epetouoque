@@ -8,8 +8,15 @@ import medicineImage from 'assets/images/banner/medicine.png';
 import bakeryImage from 'assets/images/banner/bakery.jpg';
 
 export const sitePages = {
+  pet: {
+    page_title: 'Roupas pet',
+    page_description: 'Roupinhas para seu pet',
+    banner_title_id: 'petTitle',
+    banner_description_id: 'petSubTitle',
+    banner_image_url: groceryImage,
+  },
   grocery: {
-    page_title: 'Grocery - PickBazar',
+    page_title: 'Grocery - HMMMMMMMMMM',
     page_description: 'Grocery Details',
     banner_title_id: 'groceriesTitle',
     banner_description_id: 'groceriesSubTitle',

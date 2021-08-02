@@ -29,6 +29,16 @@ const loadCategories = (): Category[] => {
     },
 
     {
+      id: 2,
+      title: 'Roupinhas PET',
+      slug: 'roupas-pet',
+      products: [],
+      type: 'pet',
+      icon: 'FruitsVegetable',
+      children: []
+    },
+
+    {
       id: 9,
       title: 'Meat & Fish',
       slug: 'meat-and-fish',
